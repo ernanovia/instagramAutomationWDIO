@@ -1,0 +1,104 @@
+{
+  "start": "2023-09-25T07:37:01.987Z",
+  "end": "2023-09-25T07:37:22.854Z",
+  "capabilities": {
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "platformVersion": "12",
+      "automationName": "UIAutomator2",
+      "appPackage": "com.instagram.android",
+      "appActivity": "com.instagram.mainactivity.MainActivity",
+      "noReset": true,
+      "autoGrantPermissions": true,
+      "forceAppLaunch": true
+    },
+    "platformName": "Android",
+    "platformVersion": "12",
+    "automationName": "UIAutomator2",
+    "appPackage": "com.instagram.android",
+    "appActivity": "com.instagram.mainactivity.MainActivity",
+    "noReset": true,
+    "autoGrantPermissions": true,
+    "forceAppLaunch": true,
+    "deviceName": "emulator-5556",
+    "deviceUDID": "emulator-5556",
+    "deviceApiLevel": 31,
+    "deviceScreenSize": "1080x2280",
+    "deviceScreenDensity": 440,
+    "deviceModel": "sdk_gphone64_arm64",
+    "deviceManufacturer": "Google",
+    "pixelRatio": 2.75,
+    "statBarHeight": 83,
+    "viewportRect": {
+      "left": 0,
+      "top": 83,
+      "width": 1080,
+      "height": 2065
+    },
+    "sessionId": "1b3bcbf3-c9da-4817-b05a-6c588b77fc7b"
+  },
+  "host": "0.0.0.0",
+  "port": 4723,
+  "baseUrl": "",
+  "framework": "mocha",
+  "duration": 20867,
+  "suites": [
+    {
+      "title": "Test Instagram",
+      "duration": 20541,
+      "start": "2023-09-25T07:37:01.993Z",
+      "end": "2023-09-25T07:37:22.534Z",
+      "tests": [
+        {
+          "title": "Click menu search",
+          "start": "2023-09-25T07:37:01.993Z",
+          "end": "2023-09-25T07:37:06.535Z",
+          "duration": 4542,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Search by username",
+          "start": "2023-09-25T07:37:06.535Z",
+          "end": "2023-09-25T07:37:10.750Z",
+          "duration": 4215,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Follow user",
+          "start": "2023-09-25T07:37:10.750Z",
+          "end": "2023-09-25T07:37:15.607Z",
+          "duration": 4857,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Send message",
+          "start": "2023-09-25T07:37:15.607Z",
+          "end": "2023-09-25T07:37:22.533Z",
+          "duration": 6926,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///Users/ernanovia/Documents/Bootcamp/automationInstagram/tests/specs/instagramTest.spec.js"
+  ],
+  "state": {
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0
+  }
+}
